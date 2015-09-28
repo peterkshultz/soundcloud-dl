@@ -435,7 +435,7 @@ d3="$(echo "$soundurl" | cut -d "/" -f 6)"
 
 # Display info of the current configuration
 log 3 "Path where i will download music : $pathtomusic"
-log 3 "I will $continue_info if i found a file that already exist"
+log 3 "I will $continue_info if i find a file that already exists"
 [[ "$CreateFolders" == '1' ]] && log 3 "I will create Folders for each Profile and Sets(Playlist)"
 [[ "$KeepFolders" == '1' ]] && log 3 "I will save Reposts in the folder of the poster(He will be the artist when not -m)"
 [[ "$onlyrepost" == '1' ]] && log 3 "I will only download reposted sound"
